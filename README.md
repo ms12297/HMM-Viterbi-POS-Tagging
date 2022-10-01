@@ -43,3 +43,5 @@ This is a result of some words not appearing in a transition not included in the
 found was to record the current tag with maximum likelihood and the previous tag with maximum viterbi proability. In essence, this addresses this OOV case by ensuring there is a path
 to transition to this word in the algorithm.
 
+## Testing
+To test the outputs produced, run the scorer script using the following commad: python3 scorer.py <input_file> <output_file>. Currently, the system averages a 95% accuracy rate. 
