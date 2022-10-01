@@ -14,6 +14,8 @@ Replace your_filename with the file you want to tag. The output file generated w
 
 ### Training Stage
 
+The Penn Treebank Corpus is used for training the system.
+ 
 This stage involves populating the following dictionaries to then use in the Viterbi algorithm that implements the Hidden Markov Model for POS Tagging,
 
 There are a total of 4 dictionaries used in the system for training: likelihood, transition, OOV, and TOTALS, along with a set titled words.
